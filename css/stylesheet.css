@@ -1,0 +1,63 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgb(240, 234, 228);
+}
+
+h1, h2 {
+    color: orange;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h3 {
+    color: orange;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+img {
+    size: 100%;
+    display: block;
+    margin: 0 auto;
+    border: snow solid 10px;
+}
+
+a {
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: green;
+    transition: 0.3s;
+}
+
+a:focus {
+    color: red;
+}
+
+p {
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.hot {
+    color: red;
+    font-style: italic;
+}
+
+.container {
+    border: solid rgb(138, 84, 4) 2px;
+    background-color: rgb(224, 184, 138);
+    margin-left: 10px;
+    margin-right: 400px;
+}
+
+.bottom {
+    padding-top: 30px;
+    text-align: center;
+}
