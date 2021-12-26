@@ -2,7 +2,6 @@
 
 body {
     max-width: 100%;
-    min-width: 34em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -71,7 +70,6 @@ p {
     margin-left: 10px;
     margin-right: 400px;
     padding-right: 10px;
-    min-width: 34em;
 }
 
 .bottom {
@@ -99,3 +97,8 @@ p {
     height: 500px;
 }
 
+@media (max-width: 500px) {
+    .container {
+        min-width: 20rem;
+    }
+}
